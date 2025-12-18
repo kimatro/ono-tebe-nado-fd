@@ -168,24 +168,20 @@
   height: 100%;
   padding: 48px 40px;
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .card__title,
@@ -219,7 +215,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 120px 24px 180px;
+  padding: 0 24px 180px;
   background-color: #fff;
 }
 
